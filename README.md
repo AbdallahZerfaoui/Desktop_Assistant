@@ -24,7 +24,6 @@ Adam is a versatile desktop assistant designed to simplify your tasks and enhanc
 - **Send Emails**: Send emails to specified recipients.
 - **Set Reminders**: Set personalized reminders for specific times.
 - **Play Music**: Play music from a predefined directory.
-- **Word of the Day**: Receive a daily English word with its meaning.
 - **Break Reminders**: Receive reminders to take breaks every 30 minutes.
 
 ## Features to Add (Future Development)
