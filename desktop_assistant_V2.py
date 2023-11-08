@@ -82,8 +82,8 @@ class DesktopAssistant():
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
-        server.login('omkar.kulkarni20@vit.edu', '12010457@ok')
-        server.sendmail('omkar.kulkarni20@vit.edu', to, content)
+        server.login('adam@gmail.com', '1234567')
+        server.sendmail('adam@gmail.com', to, content)
         server.close()
 
 
@@ -239,11 +239,11 @@ class DesktopAssistant():
             self.speak(f"Sir, the time is {strTime}")
 
         elif 'open vs' in query:
-            codePath = "C:\\Users\\omkar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "C:\\Users\\adam\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
 
         elif 'open whatsapp' in query:
-            codePath = "C:\\Users\\omkar\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
+            codePath = "C:\\Users\\adam\\AppData\\Local\\WhatsApp\\WhatsApp.exe"
             os.startfile(codePath)
 
         elif 'email to xyz' in query:
